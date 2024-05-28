@@ -25,11 +25,3 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.HOST }}"
         touch test.txt
-      # cd /home/hans/workspace/qualicode_web/app;
-      # git pull --force;
-      # sudo docker-compose up -d --build"
-      # with:
-      #   host: ${{ secrets.HOST }}
-      #   username: ${{ secrets.USERNAME }}
-      #   script: |
-      #     echo "${{ github.event.inputs.content }}" > "/home/${{ secrets.USERNAME }}/${{ github.event.inputs.filename }}"
