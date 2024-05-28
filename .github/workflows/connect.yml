@@ -24,4 +24,4 @@ jobs:
     - name: Create File on EC2
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.HOST }}"
-        touch test.txt
+        touch test.txt"
