@@ -10,7 +10,7 @@ on:
       directory:
         description: 'Directory to list files from'
         required: true
-        default: '/home/${{ secrets.USERNAME }}/'
+        default: '/home/ubuntu/'
 
 jobs:
   file-management:
